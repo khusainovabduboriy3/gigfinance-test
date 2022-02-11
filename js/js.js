@@ -40,7 +40,6 @@ $(window).scroll(function() {
     loop:true,
     margin:10,
     autoplay:true,
-    nav:true,
     autoplayTimeout:7000,
     responsive:{
       0:{
