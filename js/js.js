@@ -23,7 +23,12 @@ $(window).scroll(function() {
     $('.menu').toggleClass('opened');
     });
 
-
+    $('.cardp a').click(function(){
+      $('.modul2').toggleClass('active');
+        });
+        $('.x').click(function(){
+          $('.modul2').toggleClass('active');
+            });
 
   var typed = new Typed('.element', {
     strings: $(".element").attr('data-elements').split(','),
