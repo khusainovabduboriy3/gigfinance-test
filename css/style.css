@@ -15,6 +15,9 @@ p {
   margin: 0;
   padding: 0;
 }
+body.active{
+  overflow: hidden;
+}
 .owl-dots{
   width: 20%!important;
   display: flex!important;
